@@ -193,16 +193,20 @@
         <!--==================================-->
         <h1 class="text-center">Nos offres de création de sites web</h1>
 
+        <!-- Intégration d'un schéma RDFa pour décrire les produits issus de l'adresse
+        https://schema.org/Offer
+        -->
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center py-5">
             <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card mb-4 rounded-3 shadow-sm" property="offers" typeof="Offer">
                     <div class="card-header py-3">
                         <h4 class="my-0 fw-normal">Site web statique</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">Dès 1000 CHF
+                        <h1 property="price" class="card-title pricing-card-title">Dès 1000 
+                            <meta property="priceCurrency" content="CHF" />CHF
                         </h1>
-                        <ul class="list-unstyled mt-3 mb-4">
+                        <ul property="description" class="list-unstyled mt-3 mb-4">
                             <li>Une page de présentation</li>
                             <li>Une page de contacts</li>
                             <li>Une page de services</li>
@@ -213,14 +217,15 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card mb-4 rounded-3 shadow-sm" property="offers" typeof="Offer">
                     <div class="card-header py-3">
                         <h4 class="my-0 fw-normal">Site Wordpress</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">Dès 2500 CHF
+                        <h1 property="price" class="card-title pricing-card-title">Dès 2500 
+                            <meta property="priceCurrency" content="CHF" />CHF
                         </h1>
-                        <ul class="list-unstyled mt-3 mb-4">
+                        <ul property="description" class="list-unstyled mt-3 mb-4">
                             <li>Une page de présentation</li>
                             <li>Une page de contacts</li>
                             <li>Une page de services</li>
@@ -232,12 +237,13 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card mb-4 rounded-3 shadow-sm" property="offers" typeof="Offer">
                     <div class="card-header py-3 text-white bg-primary border-primary">
                         <h4 class="my-0 fw-normal">Site sur mesures</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">Dès 10'000 CHF
+                        <h1 property="price" class="card-title pricing-card-title">Dès 10'000 
+                            <meta property="priceCurrency" content="CHF" />CHF
                         </h1>
                         <ul class="list-unstyled mt-3 mb-4">
                             <li>Gestion complète du backend</li>
